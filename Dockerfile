@@ -31,10 +31,10 @@ RUN apt-get install -y python-pip
 RUN apt-get install -y net-tools
 RUN apt-get install -y nano
 
-RUN apt-get install -y libarmadillo-dev
-RUN pip install Mosek
+# RUN apt-get install -y libarmadillo-dev
+# RUN pip install Mosek
 #Copy mosek license file
-COPY ./mosek.lic /root/mosek/mosek.lic
+# COPY ./mosek.lic /root/mosek/mosek.lic
 
 #Ros dependenciey stuff
 RUN apt-get update
