@@ -44,3 +44,11 @@ Do ```exit``` in terminal to exit and close the running container
 ```ENV TURTLEBOT3_MODEL=burger```
 
 ```RUN echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc```
+### Other useful commands
+Shows running containers on host
+
+```docker ps```
+
+Shows all built docker images on host
+
+```docker images```
